@@ -1,4 +1,5 @@
 from ClassAluno import Aluno
+from ClassLivros import Livros
 
 aluno1 = Aluno("Joaquim", 32, 1, [7, 8, 8.5, 9], "A")
 
@@ -29,6 +30,5 @@ print(
     aluno3.turma
     )
 
-from ClassLivros import Livros
 
-livro1 = livro("")
+livro1 = Livros("Gatilhos Mentais","Gustavo Ferreira","Livre")
